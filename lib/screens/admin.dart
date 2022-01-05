@@ -2,6 +2,7 @@
 
 import 'package:admin_panel/database/brand.dart';
 import 'package:admin_panel/database/category.dart';
+import 'package:admin_panel/screens/add_products.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -208,7 +209,10 @@ class _AdminState extends State<Admin> {
             ListTile(
               leading: Icon(Icons.add),
               title: Text("Add product"),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => AddProduct()));
+              },
             ),
             Divider(),
             ListTile(
