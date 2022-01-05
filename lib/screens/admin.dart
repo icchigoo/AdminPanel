@@ -3,8 +3,7 @@
 import 'package:admin_panel/database/brand.dart';
 import 'package:admin_panel/database/category.dart';
 import 'package:admin_panel/screens/add_products.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
+
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
@@ -51,7 +50,7 @@ class _AdminState extends State<Admin> {
                     setState(() => _selectedPage = Page.manage);
                   },
                   icon: Icon(
-                    Icons.dashboard,
+                    Icons.sort,
                     color: _selectedPage == Page.dashboard ? active : notActive,
                   ),
                   label: const Text('Manage'),
