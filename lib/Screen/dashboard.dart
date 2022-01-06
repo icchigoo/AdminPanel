@@ -1,10 +1,11 @@
-// ignore_for_file: prefer_const_constructors, prefer_collection_literals, deprecated_member_use, prefer_const_literals_to_create_immutables, use_key_in_widget_constructors, unused_element
+// ignore_for_file: prefer_const_constructors, prefer_collection_literals, deprecated_member_use, prefer_const_literals_to_create_immutables, use_key_in_widget_constructors, unused_element, unnecessary_new, prefer_final_fields
 
 import 'package:admin_panel/providers/app_states.dart';
-import 'package:admin_panel/screens/add_products.dart';
+import 'package:admin_panel/screens/add_product.dart';
+
 import 'package:admin_panel/widgets/small_card.dart';
 import 'package:flutter/material.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
+// import 'package:charts_flutter/flutter.dart' as charts;
 
 import 'package:provider/provider.dart';
 
